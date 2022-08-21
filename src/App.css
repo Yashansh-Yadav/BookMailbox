@@ -1,0 +1,326 @@
+
+
+
+.CardImg{
+  padding:2vh;
+}
+
+.card-hover{
+  height:70vh;
+}
+
+.card-hover:hover{
+  cursor: pointer;
+  box-shadow: 0 2px 23px 0 rgb(0 0 0 / 20%);
+}
+
+.colorCard:hover{
+  cursor: pointer;
+}
+
+.hover_s {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  width: 100%;
+  text-align: right
+}
+
+.hover_s:hover .hover_s1 {
+  opacity: 1;
+  visibility: visible
+}
+
+.hover_s img {
+  width: 30px;
+}
+
+.hover_s1 {
+  position: absolute;
+  bottom: 34px;
+  right: -15px;
+  border: 1px solid #023e7c;
+  width: 100%;
+  text-align: left;
+  font-weight: 600;
+  font-size: 12px;
+  background: #fff;
+  padding: 7px 19px;
+  border-radius: 3px;
+  opacity: 0;
+  visibility: hidden;
+  text-align: left
+}
+
+.hover_s1 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hover_s1:after {
+  box-sizing: border-box;
+  height: 1vw;
+  width: 1vw;
+  border-style: solid;
+  border-color: #023e7c;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  background: white;
+  right: 24px;
+}
+
+.hover_s1 img {
+  position: absolute;
+  top: 5px;
+  width: 14px;
+  right: 5px;
+  cursor: pointer
+}
+
+
+/* .info-popup {
+  background: #000000bf;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 9999;
+} */
+
+.main-slider-container {
+  margin: 74px 0 0
+}
+
+.logo-img {
+  margin: 23px 0;
+  display: inline-block
+}
+
+.info-popup {
+  background: #000000bf;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+} 
+
+.info-inner-popup {
+  float: left;
+  width: 70% !important;
+  top: 23px;
+  left: 18%;
+  position: absolute;
+  background: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-y: scroll;
+  height: 600px;
+}
+
+.close-pop {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer
+}
+
+.info-inner-popup p {
+  margin: 10px 20px;
+  font-size: 13px;
+  color: #333;
+}
+
+.popup-color li {
+  width: 8% !important;
+  float: left;
+  margin: 20px 12px 0 !important;
+  min-height: 162px;
+  text-align: center
+}
+color-selector
+.popup-heading {
+  font-size: 32px;
+  font-weight: 900;
+  margin: 15px 18px;
+}
+
+.popup-color li .color-name {
+  width: 100% !important
+}
+
+.Color-Svg{
+  width:162px;
+  height:68px;
+  border-radius:5px; 
+}
+.checkColor{
+  margin:10px;
+  color:green; 
+}
+
+.Colorbox{
+  position:relative;
+  border-radius:5%;
+  max-width:20rem;
+  height:67px;  
+
+}
+
+.inner-count p {
+  float: left;
+}
+
+
+
+.preview-box-main {
+  margin: 20px 0;
+}
+
+.preview-box-main p {
+  margin-bottom: 10px;
+}
+
+.inner-count {
+  float: left;
+}
+
+.inner-count p span {
+  margin: 7px 0 0;
+  display: inline-block;
+}
+
+.counter-inner-box {
+  float: left;
+  display: inline-grid;
+}
+
+.counter-inner-box p span {
+  margin: 8px 0 0 10px;
+  display: inline-block;
+}
+
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+footer {
+  background: #dee2e6;
+  clear: both;
+  padding: 50px 0;
+}
+
+.ftMenu {
+  margin: 0px;
+}
+
+.ftMenu li {
+  display: block;
+}
+
+.ftMenu li a {
+  font-size: 18px;
+  color: #000000;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.ftMenu li a:hover {
+  color: #0094e5;
+}
+
+.ftMenu li i {
+  padding-right: 5px;
+}
+
+footer span::after {
+  width: 50px;
+  height: 2px;
+  background: #000000;
+  margin: 10px 0;
+  content: "";
+  display: block;
+}
+
+footer span {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000000;
+}
+
+footer p {}
+
+.space {
+  padding-top: 15px;
+}
+
+.space2 {
+  padding-bottom: 5px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+element.style {
+}
+.check-box {
+    z-index: 999;
+}
+.checkbox-ico {
+    display: block;
+}
+
+.check-box {
+    position: absolute;
+    bottom: 8px;
+    display: none;
+    width: 15px;
+    left: 10px;
+}
+
